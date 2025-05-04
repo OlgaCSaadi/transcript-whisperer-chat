@@ -14,4 +14,6 @@ export interface Transcript {
   date: string;
   customer: string;
   selected?: boolean;
+  content?: string;
+  metadata?: Record<string, any>;
 }
